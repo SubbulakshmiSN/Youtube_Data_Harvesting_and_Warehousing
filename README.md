@@ -3,11 +3,11 @@ YouTube Data Harvesting and Warehousing using SQL, MongoDB, and Streamlit.
 A Python-based tool called YouTube Data Harvesting and Warehousing enables users to obtain and examine data from different YouTube channels. With the help of SQL, MongoDB, and Streamlit, the program creates an interactive and user-friendly interface that makes it simple for users to retrieve, save, and query data related to YouTube channels and videos.
 
 ## Installations
-pip install pandas
-pip install streamlit
-pip install psycopg
-pip install pymongo
-pip install google-api-python-client
+1. pip install pandas
+2. pip install streamlit
+3. pip install psycopg
+4. pip install pymongo
+5. pip install google-api-python-client
 ### to run streamlit application- streamlit run youtube.py
 
 ## Tools and Libraries Used:
