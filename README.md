@@ -38,7 +38,8 @@ The ethical perspective on YouTube data scraping involves following YouTube's te
 5. pymongo
    
 ## Qualities:
-1. Using the YouTube API to retrieve channel and video data from YouTube.
-2. Data lake-style data storage in a MongoDB database.
+1. Using the YouTube API to retrieve channel, video and comment data from YouTube.
+2. Data lake-style data storage in a MongoDB compass database.
 3. Data transfer from the data lake to a SQL database so that analysis and querying may be done quickly.
 4. Data is searched for and retrieved from the SQL database using various search parameters.
+5. Final visualization and insights of data using streamlit application. 
