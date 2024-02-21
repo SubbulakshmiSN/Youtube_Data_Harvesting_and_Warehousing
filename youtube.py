@@ -5,6 +5,7 @@ from pymongo import MongoClient
 import pandas as pd
 import psycopg2
 import streamlit as st 
+from streamlit_option_menu import option_menu
 
 #Api key connection function creation
 
@@ -475,9 +476,10 @@ def Tables():
 #creating UI using streamlit
 # Function to navigate to different pages
 def page_navigation():
+    st.set_page_config(layout='wide')
+    with st.sidebar:
+        selected_page = option_menu("Main Menu", ["Home", "Extract and Transform", "View"])
     
-    selected_page = st.sidebar.selectbox("Select Page", ["Home", "Extract and Transform", "View"])
-
     # Using conditional statements to display the page
     if selected_page == "Home":
         st.image("https://onetechspot.com/wp-content/uploads/2021/12/1-10.png", caption="Welcome to the YouTube Data extraction application!", use_column_width=True)    
