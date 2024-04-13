@@ -1,0 +1,6 @@
+google-api-python-client
+pymongo
+psycopg2
+streamlit
+streamlit-option-menu
+pandas
