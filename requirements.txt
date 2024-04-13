@@ -1,6 +1,5 @@
 google-api-python-client
 pymongo
-psycopg2
+psycopg2-binary
 streamlit
-streamlit-option-menu
 pandas
